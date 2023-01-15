@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+.container-one {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.container-one {
+    padding: 40px 0px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-one img,
+.left-box{
+    width: 400px;
+    height: auto;
+}
+
+.container-one .title {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.container-one .text {
+    color: #E5E7EB;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.container-two .card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+    margin-bottom: 40px;
+}
+
+.container-two .title {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 40px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 200px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.container-three .text-signature {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+button {
+    background-color: #3882F6;
+    border-style: 1px solid #3882F6;
+    color: white;
+    margin-top: 8px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 4px 18px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 8px;
+    gap: 12px;
+    color: #E5E7EB;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
