@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
 *{
     margin: 0;
 }
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .header,
@@ -73,8 +74,7 @@ body {
 .container-three {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 40px 200px;
+    padding: 0 300px;
     background-color: #E5E7EB;
     color: #1F2937;
 }
@@ -83,12 +83,48 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+    margin-bottom: 1em;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+}
+
+.calltoaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 100px;
+    background: #3882F6;
+    color: #f9f8f9;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.calltoaction .title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9f8f9;
+    padding: 15px;
 }
 
 p {
+    display: block;
     font-size: 36px;
     font-style: italic;
     font-weight: 400;
+    margin-top: 1em;
 }
 
 button {
